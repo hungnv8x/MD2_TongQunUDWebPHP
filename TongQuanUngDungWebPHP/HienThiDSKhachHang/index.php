@@ -72,7 +72,7 @@ $customerList = [
             <td><?php echo $value['ten'] ?></td>
             <td><?php echo $value['ngaysinh'] ?></td>
             <td><?php echo $value['diachi'] ?></td>
-            <td><img src="<?php echo $value['anh'] ?>" alt="" width="200"></td>
+            <td><img src="<?php echo $value['anh'] ?>" alt="" width="100" height="120"></td>
         </tr>
     <?php } ?>
     </tbody>
